@@ -6,7 +6,7 @@ jobs:
     container: docker://continuumio/anaconda3:2019.07
     steps:
       - uses: actions/checkout@v2
-      - name: cml_run
+      - name: run
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
