@@ -13,5 +13,5 @@ jobs:
 
           # Your ML workflow goes here
           echo "test"
-          pip install -r requirements.txt
+          conda install -r requirements.txt
           python Read_pdf.py
