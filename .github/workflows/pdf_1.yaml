@@ -3,7 +3,7 @@ on: [push]
 jobs:
   run:
     runs-on: [ubuntu-latest]
-    container: docker://hub.docker.com/_/python/3.8/alpine3.11
+    container: docker://continuumio/anaconda3:2019.07
     steps:
       - uses: actions/checkout@v2
       - name: cml_run
