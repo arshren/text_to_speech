@@ -3,7 +3,7 @@ on: [push]
 jobs:
   run:
     runs-on: [ubuntu-latest]
-    container: https://hub.docker.com/_/python/3.8/alpine3.11
+    container: docker://hub.docker.com/_/python/3.8/alpine3.11
     steps:
       - uses: actions/checkout@v2
       - name: cml_run
