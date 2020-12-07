@@ -2,7 +2,7 @@
 """
 Created on Sun Dec  6 10:16:55 2020
 
-@author: KHANDELWALR
+@author: Renu
 """
 
 # Import the required module for text   
@@ -18,7 +18,7 @@ read_pdf = PyPDF2.PdfFileReader(pdf_file)
 number_of_pages = read_pdf.getNumPages()
 
 # iterarte thru all the pages and raed them one by one
-for i in range(0,number_of_pages ):
+for i in range(0,1 ):
     page = read_pdf.getPage(i)
     # extract the text of the page from the PDF file
     page_content = page.extractText()
