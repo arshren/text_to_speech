@@ -27,6 +27,6 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Read PDF
       run: |
-        python Read_pdf.py
+        python test.py
 
 
