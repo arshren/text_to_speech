@@ -11,7 +11,7 @@ import pyttsx3
 import PyPDF2
 
 # Open and reda he pdf file in binary mode
-pdf_file = open('Business Value.pdf', 'rb')
+pdf_file = open('DS1.pdf', 'rb')
 read_pdf = PyPDF2.PdfFileReader(pdf_file)
 
 # Get the number of pages in the PDG files
