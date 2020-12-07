@@ -28,4 +28,5 @@ jobs:
     - name: Read PDF
       run: |
         python Read_pdf.py
-        echo "Read PDF"
+
+
